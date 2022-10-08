@@ -1,0 +1,148 @@
+.container {
+  width: 750rpx;
+  height: 100vh;
+  background-color: #CD96CD;
+}
+
+.banner_style {
+  width: 750rpx;
+  height: 100vh;
+}
+
+.banner_image {
+  width: 746rpx;
+  height: 100vh;
+  margin-left: 2rpx;
+  margin-right: 2rpx;
+  border-top-left-radius: 30rpx;
+  border-top-right-radius: 30rpx;
+  /* box-shadow:  0 0 20rpx rgba(190,77,43,.6); */
+}
+
+
+
+.music-author-username {
+  padding: 5rpx;
+  color: #89bdf7;
+}
+
+.music-author-desc {
+  color: #888;
+}
+
+.music-play {
+  float: right;
+}
+
+.music-play-control {
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 20rpx;
+}
+
+.music-title {
+  font-size: 16rpx;
+}
+
+.music-maketime {
+  color: #888;
+  font-size: 12rpx;
+  text-align: right;
+}
+
+.music-content {
+  margin: 0 20rpx 25rpx 20rpx;
+}
+
+.music-content-header {
+  text-align: right;
+  border-bottom: 1rpx solid #eee;
+}
+
+.swiper {
+  width: 750rpx;
+  height: 100vh;
+}
+
+/* .swiper swiper {
+  width: 750rpx;
+  height: 100vh;
+}
+
+.swiper swiper-item {
+  width: 750rpx;
+  height: 100vh;
+}
+
+.swiper image {
+  width: 750rpx;
+  height: 100vh;
+} */
+
+.background_music {
+  position: fixed;
+  top: 20rpx;
+  right: 10rpx;
+  z-index: 10001;
+  width: 100rpx;
+}
+
+.musicImg {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.music_icon {
+  animation: musicRotate 3s linear infinite;
+}
+
+.music_play {
+  width: 28rpx;
+  height: 60rpx;
+  margin-left: -5px;
+  transform-origin: top;
+  -webkit-transform: rotate(20deg);
+}
+
+.playImg {
+  animation: musicStop 1s linear forwards;
+}
+
+.pauseImg {
+  animation: musicStart 1s linear forwards;
+}
+
+@-webkit-keyframes musicRotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes musicStop {
+  from {
+    -webkit-transform: rotate(20deg);
+  }
+
+  to {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes musicStart {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(20deg);
+  }
+}
+
+.music_stop {
+  width: 4em;
+  display: none;
+}

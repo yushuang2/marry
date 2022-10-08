@@ -1,0 +1,143 @@
+
+/* pages/chat/index.wxss */
+.container{
+  background-color: #f1f2f7;
+}
+page {
+    background-color: #f1f2f7;
+    padding-bottom: 36rpx;
+}
+/* .chat_view{
+    margin-bottom: 180rpx;
+} */
+.chat_list {
+    width: 630rpx;
+    margin: 0 auto;
+    margin-top: 30rpx;
+    padding: 30rpx;
+    min-height: 0;
+    overflow: hidden;
+    background-color: #f1f2f7;
+    border-radius: 5rpx;
+    box-shadow:  0 0 20rpx rgba(190,77,43,.2);
+}
+.userInfo {
+  border-radius: 25rpx;
+  display: flex;
+  margin-bottom: 10rpx;
+}
+.chat_face {
+    width: 100rpx;
+    height: 100rpx;
+    /* float: left; */
+    margin-right: 30rpx;
+    margin-top: 10rpx;
+    margin-bottom: 10rpx;
+}
+.chat_face image{
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 10%;
+    box-shadow:  0 0 2rpx rgba(0, 0, 0, 0.1);
+}
+.chat_words {
+    width: 500rpx;
+    /* float: left; */
+    font-size: 30rpx;
+    line-height: 50rpx;
+    color: #999;
+}
+.chat_meta {
+    width: 100%;
+    min-height: 0;
+    overflow: hidden;
+    margin-top: 10rpx;
+    margin-bottom: 0rpx;
+}
+.chat_user {
+    display: inline-block;
+    font-size: 36rpx;
+    font-weight: 600;
+    color: #666;
+}
+.chat_date {
+    display: inline-block;
+    font-size: 28rpx;
+    color: #ccc;
+    margin-left: 32rpx;
+}
+.reply {
+    display: inline-block;
+    font-size: 30rpx;
+    line-height: 34rpx;
+    color: #ccc;
+    margin-left: 19rpx;
+}
+.replyName {
+  display: inline-block;
+  margin-left: 19rpx;
+  font-size: 24rpx;
+  color:#CD96CD;
+}
+.preview-cnt {
+  /* display: flex; */
+  margin-bottom: 10rpx;
+  margin-left: 19rpx;
+}
+
+.preview-image {
+  margin-right: 16rpx;
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 5rpx;
+}
+
+.preview-image-1v {
+  margin-right: 16rpx;
+  width: 180rpx;
+  height: 280rpx;
+  border-radius: 5rpx;
+}
+
+.preview-image-1h {
+  margin-right: 16rpx;
+  width: 280rpx;
+  height: 180rpx;
+  border-radius: 5rpx;
+}
+
+
+.send_msg {
+    width: 700rpx;
+    padding: 25rpx;  
+    background-color: #fff;
+    min-height: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+
+}
+.send_ipt {
+    width: 500rpx;
+    padding: 10rpx;
+    font-size: 30rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    float: left;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+.send_btn {
+    width: 150rpx;
+    height: 80rpx;
+    font-size: 36rpx;
+    line-height: 80rpx;
+    float: right;
+}
+
+.send_btn.dis {
+  color: rgba(52, 55, 61, 0.5);
+}

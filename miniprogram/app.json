@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/bless/bless",
+    "pages/add-moment/add-moment",
+    "pages/map/map"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#CD96CD",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tab/ic_home_normal.png",
+        "selectedIconPath": "images/tab/ic_home_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "images/tab/ic_nav_normal.png",
+        "selectedIconPath": "images/tab/ic_nav_select.png",
+        "text": "导航"
+      },
+      {
+        "pagePath": "pages/bless/bless",
+        "iconPath": "images/tab/ic_heart_normal.png",
+        "selectedIconPath": "images/tab/ic_heart_select.png",
+        "text": "祝福"
+      },
+      {
+        "pagePath": "pages/add-moment/add-moment",
+        "iconPath": "images/tab/meme-normal@2x.png",
+        "selectedIconPath": "images/tab/me-selected@2x.png",
+        "text": "发布"
+      }
+    ],
+    "position": "bottom",
+    "selectedColor": "#CD96CD",
+    "backgroundColor": "#fff",
+    "color": "#5f5f5f"
+  },
+  "cloud": true,
+  "sitemapLocation": "sitemap.json"
+}
